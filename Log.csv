@@ -1,0 +1,7 @@
+Successful or Unsuccessful,Server Status Code,Requested URL,hostname,source IP,destination IP,source port,destination port,Server Response line (including code and phrase)
+Successful,200,http://www.example.com,www.example.com,10.0.2.15,93.184.216.34,51626,80,HTTP/1.1 200 OK
+Successful,200,http://www.neverssl.com,www.neverssl.com,10.0.2.15,13.226.210.103,60124,80,HTTP/1.1 200 OK
+Unsuccessful,404,http://www.example.com/something.html,www.example.com,10.0.2.15,93.184.216.34,42691,80,HTTP/1.1 404 Not Found
+Unsuccessful,403,http://wwwexample.com,wwwexample.com,10.0.2.15,104.247.82.13,52766,80,HTTP/1.1 403 Forbidden
+Unsuccessful,301,http://www.yahoo.com,www.yahoo.com,10.0.2.15,74.6.231.21,44294,80,HTTP/1.1 301 Moved Permanently
+Unsuccessful,ERR,http://www.google.com:443,www.google.com,10.0.2.15,142.251.46.196,37157,443,Empty reply from server
